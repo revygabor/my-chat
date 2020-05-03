@@ -16,7 +16,8 @@ export class Login extends Component {
                     value={this.state.email}
                     onChange={e => {
                         this.setState({ email: e });
-                        if (this.state.email==="kiqhl3") {
+                        //if (this.state.email==="kiqhl3") {
+                        if (e==="kiqhl3") {
                             this.setState({ displayName: "Gabor" })
                         }
                     }} 
